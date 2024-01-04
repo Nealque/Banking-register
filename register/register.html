@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" method="post" class="form" id="formulario">
+        <h2>Cadastro</h2>
+
+        <div class="account-type">
+          <div class="poupanca">
+            <label for="tipo_conta"> Conta Poupança</label>
+            <input type="radio" value="1" class="contaP" name="conta" />
+          </div>
+          <div class="corrente">
+            <label for="tipo_conta">Conta Corrente</label>
+            <input type="radio" value="2" class="contac" name="conta" />
+          </div>
+        </div>
+
+        <div class="data-fields">
+          <label for="inputCPF">CPF</label>
+          <input type="tex" id="inputCPF" class="cpf" />
+
+          <label for="nome">Nome</label>
+          <input type="text" class="nome" id="nome" />
+
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" class="sobrenome" id="sobrenome" />
+
+          <label for="data">Data de nascimento</label>
+          <input type="date" class="data" id="data" />
+
+          <label for="pwd_id">Senha</label>
+          <input type="password" id="pwd_id" class="senha" />
+        </div>
+        <button onclick="" form="formulario">Criar Conta</button>
+      </form>
+    </div>
+
+    <script type="module" src="./assets/js/script.js"></script>
+  </body>
+</html>
